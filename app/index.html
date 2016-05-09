@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <title>Document</title>
+  <link rel="stylesheet" href="static/parallax/css/parallax.css">
+  <link rel="stylesheet" href="static/parallax/css/parallax-animation.css">
+  <!-- <link rel="stylesheet" href="css/test.css"> -->
+</head>
+<body>
+	<div class="wrapper">#986844
+    <div class="pages">
+      <div class="page" style="background-color:#986844 "></div>
+      <div class="page" style="background-color:#2A333C "></div>
+      <div class="page" style="background-color:#C12127 "></div>
+    </div>
+</div>
+<!-- <script src="js/bundle.js"></script> -->
+<script src="static/parallax/js/zepto.min.js"></script>
+<script src="static/parallax/js/parallax.js"></script>
+<script>
+$('.pages').parallax({
+    direction: 'horizontal', 
+    loading:   true,
+    indicator: true,
+    arrow:     true
+});
+</script>
+</body>
+</html>
